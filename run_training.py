@@ -24,7 +24,7 @@ def save_results(log,fieldnames,output_path):
 # Description of all argument
 parser = argparse.ArgumentParser()
 parser.add_argument('-batchSize', type=int, default=32)
-parser.add_argument('-nEpochs', type=int, default=50)
+parser.add_argument('-nEpochs', type=int, default=80)
 parser.add_argument('-data_split_path', required=False, default= '../data/formatted_train_test_split.csv',type=str)
 parser.add_argument('-datasetPath', required=False, default= '../data/images/',type=str)
 parser.add_argument('-outputPath', required=False, default= '../results/models/',type=str)
